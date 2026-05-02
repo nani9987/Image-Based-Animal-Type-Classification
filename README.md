@@ -1,2 +1,2 @@
 # Image-Based-Animal-Type-Classification
-Image-based classification of cattle and buffaloes using deep learning
+Image-based classification of goat and sheep using deep learning
