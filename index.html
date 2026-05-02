@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Goat vs Sheep AI</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<h1>Goat vs Sheep AI Classifier</h1>
+
+<p class="subtitle">Deep Learning Image Classification</p>
+
+<div class="drop-area" onclick="document.getElementById('fileInput').click()">
+Upload or Drag Image
+</div>
+
+<input type="file" id="fileInput" hidden>
+
+<img id="preview">
+
+<button onclick="predict()">Predict</button>
+
+<div id="spinner">
+Analyzing Image...
+</div>
+
+<div id="resultCard">
+
+<h2 id="prediction"></h2>
+
+<p>Confidence</p>
+
+<div class="bar">
+<div id="confidenceBar"></div>
+</div>
+
+<p id="confidenceText"></p>
+
+<p id="accuracy"></p>
+
+<h3>AI Heatmap</h3>
+
+<img id="heatmap">
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
